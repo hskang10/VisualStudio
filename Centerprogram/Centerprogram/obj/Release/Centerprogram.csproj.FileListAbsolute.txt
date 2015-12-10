@@ -1,0 +1,15 @@
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\bin\Release\Centerprogram.exe.config
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\bin\Release\Centerprogram.exe
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\bin\Release\Centerprogram.pdb
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\obj\Release\Centerprogram.csprojResolveAssemblyReference.cache
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\obj\Release\MainWindow.g.cs
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\obj\Release\App.g.cs
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\obj\Release\Centerprogram_MarkupCompile.cache
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\obj\Release\Centerprogram_MarkupCompile.lref
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\obj\Release\MainWindow.baml
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\obj\Release\Centerprogram.g.resources
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\obj\Release\Centerprogram.Properties.Resources.resources
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\obj\Release\Centerprogram.csproj.GenerateResource.Cache
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\obj\Release\Centerprogram.exe
+C:\Users\Hansu\Documents\Visual Studio 2015\Projects\Centerprogram\Centerprogram\obj\Release\Centerprogram.pdb
