@@ -1,0 +1,15 @@
+c:\users\hansu\documents\visual studio 2015\Projects\Starter\Starter\bin\Debug\Starter.exe
+c:\users\hansu\documents\visual studio 2015\Projects\Starter\Starter\bin\Debug\Starter.pdb
+c:\users\hansu\documents\visual studio 2015\Projects\Starter\Starter\obj\Debug\Starter.csprojResolveAssemblyReference.cache
+c:\users\hansu\documents\visual studio 2015\Projects\Starter\Starter\obj\Debug\MainWindow.g.cs
+c:\users\hansu\documents\visual studio 2015\Projects\Starter\Starter\obj\Debug\App.g.cs
+c:\users\hansu\documents\visual studio 2015\Projects\Starter\Starter\obj\Debug\Starter_MarkupCompile.cache
+c:\users\hansu\documents\visual studio 2015\Projects\Starter\Starter\obj\Debug\Starter_MarkupCompile.lref
+c:\users\hansu\documents\visual studio 2015\Projects\Starter\Starter\obj\Debug\MainWindow.baml
+c:\users\hansu\documents\visual studio 2015\Projects\Starter\Starter\obj\Debug\Starter.g.resources
+c:\users\hansu\documents\visual studio 2015\Projects\Starter\Starter\obj\Debug\Starter.Properties.Resources.resources
+c:\users\hansu\documents\visual studio 2015\Projects\Starter\Starter\obj\Debug\Starter.csproj.GenerateResource.Cache
+c:\users\hansu\documents\visual studio 2015\Projects\Starter\Starter\obj\Debug\Starter.exe
+c:\users\hansu\documents\visual studio 2015\Projects\Starter\Starter\obj\Debug\Starter.pdb
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\Starter\Starter\obj\Debug\Starter.exe
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\Starter\Starter\obj\Debug\Starter.pdb
