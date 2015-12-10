@@ -31,7 +31,7 @@ namespace SensorNetworkManager_WPF {
 		private Node[] node;
 
 		public SubWindow(MainWindow mainW) {
-			mainWindow = (MainWindow)mainW;
+			mainWindow = mainW;
 			InitializeComponent();
 		}
 

@@ -34,8 +34,8 @@ namespace SensorNetworkManager_WPF {
 
 		private void Window_Loaded(object sender, RoutedEventArgs e) {
 			backgroundWorker_Listen = new BackgroundWorker();
-			backgroundWorker_Listen.DoWork += new DoWorkEventHandler(backgroundWorker_Listen_DoWork);
-			backgroundWorker_Listen.RunWorkerCompleted += new RunWorkerCompletedEventHandler(backgroundWorker_Listen_RunWorkerCompleted);
+			backgroundWorker_Listen.DoWork += this.backgroundWorker_Listen_DoWork;
+			backgroundWorker_Listen.RunWorkerCompleted += this.backgroundWorker_Listen_RunWorkerCompleted;
 
 			_isConnected = false;
 
@@ -74,7 +74,7 @@ namespace SensorNetworkManager_WPF {
 
 						this.backgroundWorker_Listen.RunWorkerAsync();
 						this.label_connection.Content = "Connected";
-						UpdateLog(_selectedCOMPort.ToString() + "포트에 연결됨", textBox_systemLog);
+						UpdateLog(this._selectedCOMPort + "포트에 연결됨", textBox_systemLog);
 						this.image_connetion.Source = (ImageSource)FindResource("green");
 
 						this.button_connect.IsEnabled = false;
@@ -116,12 +116,12 @@ namespace SensorNetworkManager_WPF {
 				MessageBox.Show("not connected!", "알림", MessageBoxButton.OK, MessageBoxImage.Error);
 			else {
 				var packet = new Packet();
-				packet.type = 0x00;
-				packet.sourceID = 0xEE;
+				packet.type = (byte)MessageType.Initialization;
+				packet.sourceID = (byte)Id.Center;
 				packet.sourceLevel = 0;
-				packet.senderID = 0xEE;
+				packet.senderID = (byte)Id.Center;
 				packet.senderLevel = 0;
-				packet.receiverID = 0x00;
+				packet.receiverID = (byte)Id.Sink;
 				byte[] buffer = StructureToByte(packet);
 				byte[] stx = {0x02};
 				byte[] etx = {0x03};
@@ -136,9 +136,9 @@ namespace SensorNetworkManager_WPF {
 			if (portWindow == null) {
 				portWindow = new PortWindow();
 				portWindow.Owner = this;
-				portWindow.OnOkButtonClickEvent += new PortWindow.OnOkButtonClickHandler(portWindow_OnOKButtonClickEvent);
-				portWindow.OnCancelButtonClickEvent += new PortWindow.OnCancelButtonClickHandler(portWindow_OnCancelButtonClickEvent);
-				portWindow.WindowClosedEvent += new PortWindow.WindowClosedHandler(portWindow_WindowClosedEvent);
+				portWindow.OnOkButtonClickEvent += this.portWindow_OnOKButtonClickEvent;
+				portWindow.OnCancelButtonClickEvent += this.portWindow_OnCancelButtonClickEvent;
+				portWindow.WindowClosedEvent += this.portWindow_WindowClosedEvent;
 				portWindow.ShowDialog();
 			}
 		}
@@ -166,9 +166,9 @@ namespace SensorNetworkManager_WPF {
 			nodeWindow = new NodeWindow();
 			nodeWindow.Owner = this;
 
-			nodeWindow.OnOKButtonClickEvent += new NodeWindow.OnOKButtonClickHandler(nodeWindow_OnOKButtonClickEvent);
-			nodeWindow.OnCancelButtonClickEvent += new NodeWindow.OnCancelButtonClickHandler(nodeWindow_OnCancelButtonClickEvent);
-			nodeWindow.WindowClosedEvent += new NodeWindow.WindowClosedHandler(nodeWindow_WindowClosedEvent);
+			nodeWindow.OnOKButtonClickEvent += this.nodeWindow_OnOKButtonClickEvent;
+			nodeWindow.OnCancelButtonClickEvent += this.nodeWindow_OnCancelButtonClickEvent;
+			nodeWindow.WindowClosedEvent += this.nodeWindow_WindowClosedEvent;
 			nodeWindow.ShowDialog();
 		}
 	}

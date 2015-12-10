@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Hansu\documents\visual studio 2015\Projects\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\
 SensorNetworkManager_WPF
 none
 false
 DEBUG;TRACE
-C:\Users\Hansu\documents\visual studio 2015\Projects\SensorNetworkManager_WPF\SensorNetworkManager_WPF\App.xaml
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\App.xaml
 41769198470
 
-15-619991859
-14-1001767708
+11-1104411730
+112034733353
 MainWindow.xaml;NodeWindow.xaml;PortWindow.xaml;SubWindow.xaml;
 
 False

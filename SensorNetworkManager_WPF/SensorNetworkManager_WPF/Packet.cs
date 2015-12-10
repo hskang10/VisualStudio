@@ -26,4 +26,18 @@ namespace SensorNetworkManager_WPF {
 				   senderLevel.ToString("X2") + "-" + receiverID.ToString("X2");
 		}
 	}
+
+	public enum MessageType {
+		Initialization = 0x00,
+		Reset = 0x01,
+		Sensing = 0x21,
+		SensingAck = 0x22,
+		Follow = 0xEE
+	}
+
+	public enum Id {
+		Sink = 0x00,
+		Broadcast = 0xFF,
+		Center = 0xEE
+	}
 }

@@ -23,7 +23,7 @@ namespace SensorNetworkManager_WPF {
 		}
 
 		private void Window_Loaded(object sender, RoutedEventArgs e) {
-			for (int i = 0; i < 10; i++) {
+			for (var i = 0; i < 10; i++) {
 				comboBox.Items.Add(i + 1);
 			}
 		}

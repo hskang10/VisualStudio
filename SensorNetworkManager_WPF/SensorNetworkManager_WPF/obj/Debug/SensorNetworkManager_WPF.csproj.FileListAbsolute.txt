@@ -19,3 +19,24 @@ C:\Users\Hansu\Documents\Visual Studio 2015\Projects\SensorNetworkManager_WPF\Se
 C:\Users\Hansu\Documents\Visual Studio 2015\Projects\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\SensorNetworkManager_WPF.csprojResolveAssemblyReference.cache
 C:\Users\Hansu\Documents\Visual Studio 2015\Projects\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\NodeWindow.g.cs
 C:\Users\Hansu\Documents\Visual Studio 2015\Projects\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\NodeWindow.baml
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\bin\Debug\SensorNetworkManager_WPF.exe.config
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\SensorNetworkManager_WPF.exe
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\SensorNetworkManager_WPF.pdb
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\SensorNetworkManager_WPF.csprojResolveAssemblyReference.cache
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\NodeWindow.g.cs
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\PortWindow.g.cs
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\SubWindow.g.cs
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\App.g.cs
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\SensorNetworkManager_WPF_MarkupCompile.cache
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\SensorNetworkManager_WPF_MarkupCompile.lref
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\bin\Debug\SensorNetworkManager_WPF.exe
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\bin\Debug\SensorNetworkManager_WPF.pdb
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\App.baml
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\MainWindow.baml
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\NodeWindow.baml
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\PortWindow.baml
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\SubWindow.baml
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\SensorNetworkManager_WPF.g.resources
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\SensorNetworkManager_WPF.Properties.Resources.resources
+C:\Users\Hansu\Documents\GitHubVisualStudio\VisualStudio\SensorNetworkManager_WPF\SensorNetworkManager_WPF\obj\Debug\SensorNetworkManager_WPF.csproj.GenerateResource.Cache
