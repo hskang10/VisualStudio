@@ -1,0 +1,68 @@
+﻿<Window x:Class="SensorNetworkManager_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SensorNetworkManager_WPF"
+        mc:Ignorable="d"
+        Title="SensorNetworkManager" Height="529" Width="720" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Icon="Resources/network_wireless.ico" Closed="Window_Closed" LocationChanged="Window_LocationChanged" Topmost="True" WindowStyle="ToolWindow">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <BitmapImage x:Key="green" UriSource="Resources/green.png"></BitmapImage>
+            <BitmapImage x:Key="red" UriSource="Resources/red.png"></BitmapImage>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+        <Button x:Name="button_connect" Content="Connect" Margin="35,151,0,0" VerticalAlignment="Top" Background="#FFDDDDDD" Click="button_connect_Click" Cursor="Hand" HorizontalAlignment="Left" Width="85" />
+        <Button x:Name="button_disconnect" Content="Disconnect" HorizontalAlignment="Left" Margin="142,151,0,0" VerticalAlignment="Top" Click="button_disconnect_Click" Cursor="Hand" Width="85" />
+        <Image x:Name="logo" HorizontalAlignment="Left" Height="121" Margin="522,15,0,0" VerticalAlignment="Top" Width="142" Source="Resources/logo_full.jpg" Cursor="Hand" StretchDirection="DownOnly" Stretch="UniformToFill" RenderOptions.EdgeMode="Aliased" RenderOptions.BitmapScalingMode="Fant" MouseLeftButtonDown="logo_MouseLeftButtonDown" ToolTip="http://mimocom.knu.ac.kr" />
+        <Button x:Name="button_map" Content="&lt;" HorizontalAlignment="Left" Margin="684,0,0,0" VerticalAlignment="Top" Width="20" Click="button_map_Click" Cursor="Hand" Height="490" />
+        <Button x:Name="button_initialize" Content="초기화 메시지 보내기" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="316,151,0,0" VerticalAlignment="Top" Width="132" Height="22" IsHitTestVisible="True" Cursor="Hand" Click="button_initialize_Click">
+            <Button.BindingGroup>
+                <BindingGroup />
+            </Button.BindingGroup>
+        </Button>
+        <Button x:Name="button_exit" Content="종료" HorizontalAlignment="Left" Margin="15,457,0,0" VerticalAlignment="Top" Width="75" Click="button_exit_Click" RenderTransformOrigin="0.173,0.409" Cursor="Hand" />
+        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="174" Margin="15,201,0,0" VerticalAlignment="Top" Width="393">
+            <TabItem Header="시스템로그">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="textBox_systemLog" HorizontalAlignment="Left" Height="132" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="377" ScrollViewer.CanContentScroll="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Visible" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="탐지내역">
+                <Grid Background="#FFE5E5E5">
+                    <TextBox x:Name="textBox_log" HorizontalAlignment="Left" Height="132" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="377" ScrollViewer.CanContentScroll="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Visible" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+        <GroupBox x:Name="groupBox" HorizontalAlignment="Left" Margin="15,15,0,0" VerticalAlignment="Top" Height="121" Width="233">
+            <GroupBox.Header>
+                <TextBlock FontWeight="Bold" FontSize="15">센터 연결 정보</TextBlock>
+            </GroupBox.Header>
+            <Grid>
+                <Label x:Name="label" Content="선택된 포트 : " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" />
+                <Label x:Name="label_portSelect" Content="선택되지 않음" HorizontalAlignment="Left" Margin="100,10,0,0" VerticalAlignment="Top" />
+                <Label x:Name="label_connection" Content="Disconnected" HorizontalAlignment="Left" Margin="118,29,0,0" VerticalAlignment="Top" />
+                <Label x:Name="label_Copy" Content="연결 상태 :" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top" />
+                <Image x:Name="image_connetion" HorizontalAlignment="Left" Height="13" Margin="102,31,0,0" VerticalAlignment="Top" Width="12" Source="Resources/red.png" />
+                <Button x:Name="button_portSelect" Content="설정" HorizontalAlignment="Left" Margin="168,60,0,0" VerticalAlignment="Top" Width="43" Click="button_portSelect_Click" Cursor="Hand" />
+            </Grid>
+        </GroupBox>
+
+        <GroupBox x:Name="groupBox2" HorizontalAlignment="Left" Margin="267,15,0,0" VerticalAlignment="Top" Height="121" Width="233">
+            <GroupBox.Header>
+                <TextBlock FontWeight="Bold" FontSize="15">설정한 노드 정보</TextBlock>
+            </GroupBox.Header>
+            <Grid>
+                <Label x:Name="label_sink" Content="싱크노드 ID : " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" />
+                <Label x:Name="label_numNodeTitle" Content="센서노드 개수 : " HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" />
+                <Label x:Name="label_sinkID" Content="0x00" HorizontalAlignment="Left" Margin="108,10,0,0" VerticalAlignment="Top" />
+                <Label x:Name="label_numNode" Content="설정되지 않음" HorizontalAlignment="Left" Margin="107,31,0,0" VerticalAlignment="Top" />
+            </Grid>
+        </GroupBox>
+        <Button x:Name="button_nodeSetting" Content="노드 설정" HorizontalAlignment="Left" Height="22" Margin="417,101,0,0" VerticalAlignment="Top" Width="71" Cursor="Hand" Click="button_nodeSetting_Click" />
+    </Grid>
+</Window>
